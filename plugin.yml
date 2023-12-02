@@ -1,0 +1,23 @@
+name: PingView
+main: GameParrot\PingView\Main
+src-namespace-prefix: GameParrot\PingView
+version: 0.1.0
+api: 5.0.0
+load: POSTWORLD
+author: GameParrot
+description: Show your ping or someone elses ping with a command
+website: https://null.com
+
+commands:
+ ping:
+  description: "Show your ping or someone elses ping"
+  usage: "/ping"
+  permission: pingview.command
+
+permissions:
+ pingview.command:
+  default: true
+  description: "Allows the use of /ping"
+ pingview.others:
+  default: true
+  description: "Allows the use of /ping to view ping of others"
