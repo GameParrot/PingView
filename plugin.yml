@@ -2,7 +2,7 @@ name: PingView
 main: GameParrot\PingView\Main
 src-namespace-prefix: GameParrot\PingView
 version: 1.0.0
-api: 5.0.0
+api: [4.0.0, 5.0.0]
 load: POSTWORLD
 author: GameParrot
 description: Show your ping or someone elses ping with a command
