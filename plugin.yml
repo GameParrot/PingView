@@ -1,7 +1,7 @@
 name: PingView
 main: GameParrot\PingView\Main
 src-namespace-prefix: GameParrot\PingView
-version: 0.1.0
+version: 1.0.0
 api: 5.0.0
 load: POSTWORLD
 author: GameParrot
