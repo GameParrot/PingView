@@ -1,5 +1,5 @@
 name: PingView
-main: GameParrot\PingView\Main
+main: GameParrot\PingView\loader
 src-namespace-prefix: GameParrot\PingView
 version: 1.0.0
 api: [4.0.0, 5.0.0]
@@ -7,12 +7,6 @@ load: POSTWORLD
 author: GameParrot
 description: Show your ping or someone elses ping with a command
 website: https://null.com
-
-commands:
- ping:
-  description: "Show your ping or someone elses ping"
-  usage: "/ping"
-  permission: pingview.command
 
 permissions:
  pingview.command:
